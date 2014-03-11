@@ -7,4 +7,6 @@ Gem::Specification.new do |s|
   s.email = 'openssl-dont_be_stupid-gem@jeffweiss.org'
   s.files = ['lib/openssl/dont_be_stupid.rb']
   s.license = 'MIT'
+  s.homepage = "https://github.com/jeffweiss/openssl-dont_be_stupid"
+  s.description = "OpenSSL::SSL::VERIFY_NONE is *horrible*. Don't use it and don't allow any other libraries to use it either."
 end
